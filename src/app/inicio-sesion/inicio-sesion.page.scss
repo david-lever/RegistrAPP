@@ -1,0 +1,157 @@
+/* ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ Toolbar ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ */
+
+/* ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ Background ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ */
+
+ion-content {
+  --width: 3121px;
+  --height: 6746px;
+  --background: linear-gradient(
+      180deg,
+      #ebf3fa 0%,
+      #dde7f3 48.96%,
+      #e5f0f9 100%
+    ),
+    rgba(6, 40, 73, 0.6);
+  --backdrop-filter: blur(100px);
+  // width: calc(100% + 15px);
+}
+// ion-content::part(scroll) {
+//   padding-right: 15px;
+// }
+
+ion-content.background {
+  --background: url(../../assets/img/bg.png) 0 0/100% 100% no-repeat;
+}
+
+/* ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ Card ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ */
+
+ion-card {
+  --background: linear-gradient(210.55deg, #ebf2f9 19.14%, #c6d7eb 154.68%);
+  --box-shadow: -16px -16px 40px rgba(255, 255, 255, 0.8),
+    16px 4px 64px rgba(18, 61, 101, 0.3),
+    inset -8px -6px 80px rgba(255, 255, 255, 0.18);
+  --backdrop-filter: blur(100px);
+  --border-radius: 100px;
+  --transform: rotate(-90deg);
+  --color: #0b233b;
+}
+ion-card-content {
+  height: 52vh;
+}
+
+.ion-text-center {
+  margin: 20px;
+  width: fit-content;
+  border-radius: 20px;
+}
+.ion-text-center.md.hydrated {
+  width: 235px;
+  height: 410px;
+}
+
+ion-item {
+  --font-weight: regular;
+  --color: #0b233b;
+  --background: radial-gradient(
+    315.18% 315.18% at -124.11% -101.79%,
+    #b9cce2 19%,
+    #ffffff 77.71%
+  );
+  --box-shadow: -6px -4px 16px rgba(255, 255, 255, 0.36),
+    6px 4px 16px rgba(136, 165, 191, 0.54),
+    inset -8px -6px 26px rgba(255, 255, 255, 0.18);
+  --filter: blur(4px);
+  //   --border-radius: 52px;
+}
+
+ion-imput {
+  --color: #0b233b;
+}
+
+/* ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ Logo ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ */
+
+.logo {
+  --width: 25%;
+  --height: 25%;
+  --align-items: center;
+  --justify-content: center;
+}
+
+/* ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ Button ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰ */
+
+#recovery {
+  --font-size: 12px;
+  --font-weight: regular;
+  --color: #0b233b;
+  --background: radial-gradient(
+    315.18% 315.18% at -124.11% -101.79%,
+    #b9cce2 19%,
+    #ffffff 77.71%
+  );
+  --box-shadow: -6px -4px 16px rgba(255, 255, 255, 0.36),
+    6px 4px 16px rgba(136, 165, 191, 0.54),
+    inset -8px -6px 26px rgba(255, 255, 255, 0.18);
+  --filter: blur(4px);
+  --border-radius: 11px;
+  --webkit-transition: 0.3s all ease;
+  --moz-transition: 0.3s all ease;
+  --transition: 0.3s all ease;
+  --padding-right: 50px;
+  --width: 100px;
+}
+
+#recovery:hover {
+  --background: radial-gradient(
+    315.18% 315.18% at -124.11% -101.79%,
+    #dfe8f1 19%,
+    #ffffff 77.71%
+  );
+  --box-shadow: -6px -4px 16px rgba(255, 255, 255, 0.36),
+    6px 4px 16px rgba(136, 165, 191, 0.54),
+    inset -8px -6px 26px rgba(255, 255, 255, 0.18);
+  --filter: blur(4px);
+  --border-radius: 50px;
+  --webkit-transition: 1s all ease;
+  --moz-transition: 1s all ease;
+  --transition: 1s all ease;
+}
+
+#login {
+  --font-size: 14px;
+  --font-weight: bold;
+  --color: #0b233b;
+  --background: linear-gradient(90.48deg, #fdba31 -57.8%, #fedc94 146.19%);
+  --box-shadow: -4px -2px 16px #ffffff, 4px 2px 16px rgba(136, 165, 191, 0.54),
+    inset -8px -6px 26px rgba(255, 255, 255, 0.18);
+  --border-radius: 11px;
+  --webkit-transition: 0.3s all ease;
+  --moz-transition: 0.3s all ease;
+  --transition: 0.3s all ease;
+}
+
+#login:hover {
+  --background: linear-gradient(90.48deg, #fdde31 -57.8%, #fedc94 146.19%);
+  --box-shadow: -4px -2px 16px #ffffff, 4px 2px 16px rgba(136, 165, 191, 0.54),
+    inset -8px -6px 26px rgba(255, 255, 255, 0.18);
+  --border-radius: 50px;
+  --webkit-transition: 1s all ease;
+  --moz-transition: 1s all ease;
+  --transition: 1s all ease;
+}
+.boton {
+  height: 60px;
+  border-radius: 30px;
+}
+#boton1 {
+  margin-right: 50px;
+}
+#recovery.md.button.button-small.button-solid.ion-activatable.ion-focusable.hydrated {
+  font-size: 11.5px;
+}
+.titulo {
+  height: 50px;
+  text-align: center;
+}
+.checkbox {
+  border-radius: 30px;
+}

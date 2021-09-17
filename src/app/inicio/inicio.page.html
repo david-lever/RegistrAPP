@@ -1,0 +1,106 @@
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Inicio</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="" [icon]="buttonIcon"> </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-content padding class="background">
+    <ion-card style="margin-top: 5vh">
+      <ion-card-content>
+        <ion-item lines="none">
+          <!--{{interpolación}} Mostrar el dato obtenido desde el ts al visual-->
+          <ion-label size="large"> Bienvenido {{dato}} </ion-label>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+    <ion-list>
+      <ion-list-header>
+        <h1>Cursos</h1>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="./assets/icon/avatar_5.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Seguridad en Sistemas (S-2D)</h2>
+        </ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="./assets/icon/avatar_3.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Arquitectura (A-3D)</h2>
+        </ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="./assets/icon/avatar_2.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Programación de Base de Datos (P-7D)</h2>
+        </ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="./assets/icon/avatar_4.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Diseño de Prototipos (D-6D)</h2>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+      <ion-fab-button>
+        <ion-icon md="caret-up" ios="chevron-up-circle-outline"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="top">
+        <ion-fab-button color="light">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button color="light">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button color="light">
+          <ion-icon name="logo-vimeo"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button color="light">
+          <ion-icon name="logo-google"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+  </ion-content>
+</ion-content>
+
+<ion-footer class="ion-no-border" [translucent]="true">
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="account">
+          <ion-icon name="person-outline"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button tab="search">
+          <ion-icon name="search-outline"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button tab="outline">
+          <ion-icon name="create-outline"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button tab="settings">
+          <ion-icon name="settings-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>

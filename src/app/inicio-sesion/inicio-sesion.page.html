@@ -1,0 +1,100 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="titulo"> Alumno </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-content padding class="background">
+    <div>
+      <ion-card class="ion-text-center">
+        <ion-card-title>
+          <ion-card-subtitle class="logo" style="padding: 5px">
+            <ion-img src="./assets/logos/LOGO_FINAL.png"></ion-img>
+          </ion-card-subtitle>
+        </ion-card-title>
+        <br />
+        <!-- <br /> -->
+        <ion-label>
+          <h1 style="font-weight: bold; color: #31456a">Iniciar sesión</h1>
+        </ion-label>
+        <br />
+        <ion-card-content style="padding-top: 0px">
+          <form novalidate (ngSubmit)="onSubmit()" #f="ngForm">
+            <ion-item class="boton" lines="none">
+              <ion-label position="floating">Usuario</ion-label>
+              <ion-input
+                type="text"
+                [(ngModel)]="dato"
+                required
+                minlength="2"
+                required
+                maxlength="8"
+                class="form-control"
+                name="dato"
+              ></ion-input>
+            </ion-item>
+            <br />
+            <ion-item class="boton" lines="none">
+              <ion-label position="floating">Contraseña</ion-label>
+              <ion-input
+                type="password"
+                [(ngModel)]="password"
+                required
+                minlength="4"
+                required
+                maxlength="8"
+                class="form-control"
+                name="password"
+              ></ion-input>
+            </ion-item>
+          </form>
+          <br />
+          <!-- <br /> -->
+
+          <label style="margin-right: 100px"
+            ><input type="checkbox" id="cbox1" /> Recordar</label
+          ><br /><br />
+          <ion-button id="recovery" size="small" (click)="restablecer()"
+            >¿Olvidaste tu contraseña?</ion-button
+          >
+          <br />
+          <ion-button
+            type="submit"
+            [disabled]="f.invalid"
+            id="login"
+            expand="block"
+            (click)="inicio()"
+            style="font-weight: bold; color: #31456a"
+            >Ingresar</ion-button
+          >
+          <!--Requerido para crear el metodo de volver a inicio-->
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </ion-content>
+</ion-content>
+
+<ion-footer class="ion-no-border" [translucent]="true">
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="account">
+          <ion-icon name="person-outline"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button tab="search">
+          <ion-icon name="search-outline"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button tab="outline">
+          <ion-icon name="create-outline"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button tab="settings">
+          <ion-icon name="settings-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>
