@@ -1,7 +1,7 @@
-# Proyecto Semestral
+# Proyecto
 
 <p align="center">
-  <img src="https://github.com/david-lever/RegistrAPP/blob/main/src/assets/logos/registrapp.svg" width="50%" height="50%" />
+  <img src="https://github.com/david-lever/RegistrAPP/blob/main/src/assets/logos/registrapp_logo_dark.svg" width="50%" height="50%" />
 </p>
 
 ## Referencia
@@ -15,7 +15,7 @@
 
 ## Repositorio
 
-Este repositorio contiene el source code de la aplicación híbrida.
+Este repositorio contiene el source code de la aplicación móvil híbrida.
 
 ## Principales objetivos de la App
 - Reducir los tiempos destinados para registrar la asistencia.
@@ -49,5 +49,5 @@ Este repositorio contiene el source code de la aplicación híbrida.
 ### Integrantes 
 
 #### Cesar Gonzales [@](https://github.com/)
-#### Kristel Mercurino [@](https://github.com/)
+#### Kristel Mercurino [@KristelMercurino](https://github.com/KristelMercurino)
 #### David Lever [@david-lever](https://github.com/david-lever)
