@@ -48,6 +48,6 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
 ## Grupo N° 12 - Sección 003D
 ### Integrantes 
 
-#### Cesar Gonzales [@](https://github.com/)
+#### Cesar Gonzales [@cesargonzalesdanton](https://github.com/cesargonzalesdanton)
 #### Kristel Mercurino [@KristelMercurino](https://github.com/KristelMercurino)
 #### David Lever [@david-lever](https://github.com/david-lever)
