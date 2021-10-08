@@ -36,8 +36,6 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
     - [x] Restablecer contraseña. (Recovery)
       - [x] Componentes necesarios para el nombre de usuario.
       - [x] Componentes necesarios para enviar el formulario.
-      - [x] Componentes necesarios para enviar el formulario.
-      - [x] Componentes necesarios para restablecer la contraseña.
     - [x] Página de Inicio. (Home)
       - [x] Componentes necesarios para dar la bienvenida al usuario.
       - [x] Componentes a elección en relación con el caso.
