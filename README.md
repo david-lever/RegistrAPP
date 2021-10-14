@@ -24,6 +24,7 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
 - Mejorar el proceso de reportes de asistencias.
 
 ## Task List
+### Sprint 1
 
 - [x] Instalación del ambiente de trabajo node.js.
 - [x] Creación e implementación de la App en Ionic.
@@ -42,6 +43,13 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
   - [x] Utilización de state y datos que cambian en el tiempo.
   - [x] Implementación de animaciones en componentes.
   - [ ] <s>Creación del código QR.</s>
+
+### Sprint 2
+
+  - [ ] Implementación de persistencia.
+    - [ ] Integración con Ionic Storage o SQLite.
+  - [ ] Implementación de animaciones en componentes.
+  - [ ] Creación del código QR.
 
 ## Grupo N° 12 - Sección 003D
 ### Integrantes 
