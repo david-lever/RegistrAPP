@@ -28,8 +28,6 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
 
 ### Sprint 1
 
-### Sprint 1
-
 - [x] Instalación del ambiente de trabajo node.js.
 - [x] Creación e implementación de la App en Ionic.
   - [x] Codificación de las pages.
