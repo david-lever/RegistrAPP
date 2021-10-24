@@ -25,6 +25,7 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
 - Mejorar el proceso de reportes de asistencias.
 
 ## Task List
+### Sprint 1
 
 ### Sprint 1
 
@@ -47,22 +48,33 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
   - [ ] <s>Creación del código QR.</s>
 
 ### Sprint 2
+<<<<<<< HEAD
 
+=======
+>>>>>>> 217b099025758c17f323b6642c2dfd422b8d0788
 - [ ] Optimizar las páginas de Ingreso de Usuario (Login), Restablecer Contraseña (Recovery) y Página de Inicio (Home) con las siguientes características:
   - [ ] Implementar el diseño según sea el caso generando la lógica de los modelos en los .ts del Page o Component.
   - [ ] Implementar el servicio que les permita realizar las consultas hacia el API Rest junto con las funciones permitidas por el servicio.
   - [ ] Ya teniendo el servicio implementado, se deberá implementar las funciones desarrolladas en los Page y Componente que corresponda tanto para casos de éxito como casos de error.
 - [ ] Aplicar la correcta Persistencia.
+<<<<<<< HEAD
   - [ ] Integración de Ionic Storage con el motor SQLite.
+=======
+  - [ ] Integración con Ionic Storage o SQLite.
+>>>>>>> 217b099025758c17f323b6642c2dfd422b8d0788
 - [ ] Los direccionamientos de una página a otra deben ser validados correctamente.
 - [ ] <s>Creación del código QR.</s>
 
 ## Grupo N° 12 - Sección 003D
 
+<<<<<<< HEAD
 ### Integrantes
 
 #### Cesar Gonzales [@cesargonzalesdanton](https://github.com/cesargonzalesdanton)
 
+=======
+#### Cesar Gonzales [@cesargonzalesdanton](https://github.com/cesargonzalesdanton)
+>>>>>>> 217b099025758c17f323b6642c2dfd422b8d0788
 #### Kristel Mercurino [@KristelMercurino](https://github.com/KristelMercurino)
 
 #### David Lever [@david-lever](https://github.com/david-lever)
