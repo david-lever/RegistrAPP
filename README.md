@@ -18,12 +18,15 @@
 Este repositorio contiene el source code de la aplicación móvil híbrida.
 
 ## Principales objetivos de la App
+
 - Reducir los tiempos destinados para registrar la asistencia.
 - Minimizar errores de registros por motivos ya mencionados.
 - Instar a los alumnos a asistir presencialmente a clases.
 - Mejorar el proceso de reportes de asistencias.
 
 ## Task List
+
+### Sprint 1
 
 - [x] Instalación del ambiente de trabajo node.js.
 - [x] Creación e implementación de la App en Ionic.
@@ -36,8 +39,6 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
     - [x] Restablecer contraseña. (Recovery)
       - [x] Componentes necesarios para el nombre de usuario.
       - [x] Componentes necesarios para enviar el formulario.
-      - [x] Componentes necesarios para enviar el formulario.
-      - [x] Componentes necesarios para restablecer la contraseña.
     - [x] Página de Inicio. (Home)
       - [x] Componentes necesarios para dar la bienvenida al usuario.
       - [x] Componentes a elección en relación con el caso.
@@ -45,9 +46,23 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
   - [x] Implementación de animaciones en componentes.
   - [ ] <s>Creación del código QR.</s>
 
-## Grupo N° 12 - Sección 003D
-### Integrantes 
+### Sprint 2
 
-#### Cesar Gonzales [@](https://github.com/)
+- [ ] Optimizar las páginas de Ingreso de Usuario (Login), Restablecer Contraseña (Recovery) y Página de Inicio (Home) con las siguientes características:
+  - [ ] Implementar el diseño según sea el caso generando la lógica de los modelos en los .ts del Page o Component.
+  - [ ] Implementar el servicio que les permita realizar las consultas hacia el API Rest junto con las funciones permitidas por el servicio.
+  - [ ] Ya teniendo el servicio implementado, se deberá implementar las funciones desarrolladas en los Page y Componente que corresponda tanto para casos de éxito como casos de error.
+- [ ] Aplicar la correcta Persistencia.
+  - [ ] Integración de Ionic Storage con el motor SQLite.
+- [ ] Los direccionamientos de una página a otra deben ser validados correctamente.
+- [ ] <s>Creación del código QR.</s>
+
+## Grupo N° 12 - Sección 003D
+
+### Integrantes
+
+#### Cesar Gonzales [@cesargonzalesdanton](https://github.com/cesargonzalesdanton)
+
 #### Kristel Mercurino [@KristelMercurino](https://github.com/KristelMercurino)
+
 #### David Lever [@david-lever](https://github.com/david-lever)

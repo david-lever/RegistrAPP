@@ -5,7 +5,7 @@ const routes: Routes = [
   {
     path: 'inicio-sesion',
     loadChildren: () =>
-      import('./inicio-sesion/inicio-sesion.module').then(
+      import('./pages/inicio-sesion/inicio-sesion.module').then(
         (m) => m.InicioSesionPageModule
       ),
   },
@@ -17,12 +17,12 @@ const routes: Routes = [
   {
     path: 'inicio',
     loadChildren: () =>
-      import('./inicio/inicio.module').then((m) => m.InicioPageModule),
+      import('./pages/inicio/inicio.module').then((m) => m.InicioPageModule),
   },
   {
     path: 'recuperar-password',
     loadChildren: () =>
-      import('./recuperar-password/recuperar-password.module').then(
+      import('./pages/recuperar-password/recuperar-password.module').then(
         (m) => m.RecuperarPasswordPageModule
       ),
   },
