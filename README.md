@@ -44,14 +44,14 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
       - [x] Componentes a elección en relación con el caso.
   - [x] Utilización de state y datos que cambian en el tiempo.
   - [x] Implementación de animaciones en componentes.
-  - [ ] <s>Creación del código QR.</s>
+  - [ ] <s>Creación del escáner QR.</s>
 
 ### Sprint 2
 
 - [ ] Optimizar las páginas de Ingreso de Usuario (Login), Restablecer Contraseña (Recovery) y Página de Inicio (Home) con las siguientes características:
   - [x] Implementar el diseño según sea el caso generando la lógica de los modelos en los .ts del Page o Component.
   - [x] Implementar el servicio que les permita realizar las consultas hacia el API Rest junto con las funciones permitidas por el servicio.
-  - [x] Ya teniendo el servicio implementado, se deberá implementar las funciones desarrolladas en los Page y Componente que corresponda tanto para casos de éxito como casos de error.
+  - [ ] Ya teniendo el servicio implementado, se deberá implementar las funciones desarrolladas en los Page y Componente que corresponda tanto para casos de éxito como casos de error.
 - [x] Aplicar la correcta Persistencia.
   - [x] Integración de Ionic Storage.
 - [ ] Los direccionamientos de una página a otra deben ser validados correctamente.
