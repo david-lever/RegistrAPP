@@ -49,13 +49,22 @@ Este repositorio contiene el source code de la aplicación móvil híbrida.
 ### Sprint 2
 
 - [ ] Optimizar las páginas de Ingreso de Usuario (Login), Restablecer Contraseña (Recovery) y Página de Inicio (Home) con las siguientes características:
-  - [ ] Implementar el diseño según sea el caso generando la lógica de los modelos en los .ts del Page o Component.
-  - [ ] Implementar el servicio que les permita realizar las consultas hacia el API Rest junto con las funciones permitidas por el servicio.
-  - [ ] Ya teniendo el servicio implementado, se deberá implementar las funciones desarrolladas en los Page y Componente que corresponda tanto para casos de éxito como casos de error.
-- [ ] Aplicar la correcta Persistencia.
-  - [ ] Integración de Ionic Storage con el motor SQLite.
+  - [x] Implementar el diseño según sea el caso generando la lógica de los modelos en los .ts del Page o Component.
+  - [x] Implementar el servicio que les permita realizar las consultas hacia el API Rest junto con las funciones permitidas por el servicio.
+  - [x] Ya teniendo el servicio implementado, se deberá implementar las funciones desarrolladas en los Page y Componente que corresponda tanto para casos de éxito como casos de error.
+- [x] Aplicar la correcta Persistencia.
+  - [x] Integración de Ionic Storage.
 - [ ] Los direccionamientos de una página a otra deben ser validados correctamente.
-- [ ] <s>Creación del código QR.</s>
+- [x] Creación del escáner QR.
+
+### Sprint 3
+
+- [ ] Optimizar las páginas de Ingreso de Usuario, Restablecer Contraseña y Página de Inicio con las siguientes características:
+  - [ ] Realizar pruebas unitarias y pruebas E2E para asegurar la calidad del software, posteriormente deberá preparar la configuración de la aplicación para la generación del APK o Bundle App.
+  - [ ] El equipo de trabajo debe firmar el APK sin firmar mediante keytool de Java siguiendo el paso a paso para generar un Key si es que no cuentan con uno.
+  - [ ] Una vez firmada la aplicación deberán desarrollar el formulario de “Ficha de Play Store”.
+- [ ] Es importante mencionar que la lógica para crear el código QR, cual será desplegado por el Docente en el momento de realizar el proceso de asistencia, se debe desarrollar en esta Evaluación. Para generar este desarrollo existen múltiples herramientas disponibles las cuales los alumnos deben hacer uso de ellas según su preferencia. Se sugiere utilizar https://www.qrcode.com/ que es la versión original de esta tecnología.
+- [ ] Registrar la información obtenida en el código QR. Este registro debe ser enviado vía correo al docente, a través del identificador uniforme de recursos URI mailto.
 
 ## Grupo N° 12 - Sección 003D
 
